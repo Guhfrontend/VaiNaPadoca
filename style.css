@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background: linear-gradient(to bottom, #156064, #00C49A);
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 20px;
+}
+.header h1 {
+  color: white;
+  background-color: transparent;
+}
+.header nav a {
+  font-size: larger;
+  color: white;
+  text-decoration: none;
+}
+.header nav a:hover {
+  color: #52B788;
+  transition: 0.5s;
+}
+
+.main {
+  background: linear-gradient(to bottom, #00C49A, #156064);
+  height: 89vh;
+}
+.main h2 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.main .section {
+  display: flex;
+  justify-content: space-evenly;
+}
+.main .section .arroz {
+  justify-content: center;
+}
+.main .section .arroz h3 {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.main .section .arroz img {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+}
+.main .section .feijao {
+  justify-content: center;
+}
+.main .section .feijao h3 {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.main .section .feijao img {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+}
+.main .section .pao {
+  justify-content: center;
+}
+.main .section .pao h3 {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.main .section .pao img {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+}/*# sourceMappingURL=style.css.map */

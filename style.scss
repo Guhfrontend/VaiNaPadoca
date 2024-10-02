@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.header {
+    background: linear-gradient(to bottom, #156064, #00C49A);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 20px;
+
+    h1 {
+        color: white;
+        background-color: transparent;
+    }
+
+    nav {
+        a {
+            font-size: larger;
+            color: white;
+            text-decoration: none;
+        }
+        a:hover {
+            
+            color: #52B788;
+            transition: 0.5s;
+        }
+
+    }
+
+}
+
+.main {
+    background: linear-gradient(to bottom,#00C49A, #156064);
+    height: 89vh;
+    h2 {
+        color: white;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    .section {
+        display: flex;
+        justify-content: space-evenly;
+
+        .arroz {
+            justify-content: center;
+
+            h3 {
+                color: white;
+                display: flex;
+                justify-content: center;
+            }
+            img {
+                width: 150px;
+                height: 150px;
+                border-radius: 20px;
+            }
+        }
+        .feijao {
+            justify-content: center;
+            h3 {
+                color: white;
+                display: flex;
+                justify-content: center;
+            }
+            img {
+                width: 150px;
+                height: 150px;
+                border-radius: 20px;
+            }
+        }
+        .pao {
+            justify-content: center;
+            h3 {
+                color: white;
+                display: flex;
+                justify-content: center;
+            }
+            img {
+                width: 150px;
+                height: 150px;
+                border-radius: 20px;
+                
+            }
+        }
+    }
+}
